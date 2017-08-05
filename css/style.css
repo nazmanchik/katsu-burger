@@ -1,0 +1,59 @@
+* {
+    font-size: 16px;
+}
+
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+nav {
+    background: #fff;
+    color: black;
+}
+body {
+    background: #f46b45; 
+    background: -webkit-linear-gradient(left, #eea849, #f46b45);
+    background: -moz-linear-gradient(left, #eea849, #f46b45);
+    background: -o-linear-gradient(left, #eea849, #f46b45);
+    background: linear-gradient(to right, #eea849, #f46b45);  
+
+}
+.image-container {
+    margin-top: 1rem;
+}
+.responsive-image {
+    width:  660px;
+    height: 400px;
+    margin: auto;
+    border: 8px solid white;
+}
+
+.carousel-frame {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-bottom: 1em;
+    position: relative;
+    overflow-x: scroll;
+    white-space: nowrap;
+ }
+ .carousel-frame ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+}
+.carousel-frame li.carousel-item {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+.carousel-item-image {
+    width: 200px;
+    height: 150px;
+}
